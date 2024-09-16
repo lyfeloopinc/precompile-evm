@@ -97,7 +97,7 @@ mv abis/@avalabs_subnet-evm-contracts_contracts_interfaces_IAllowList_sol_IAllow
 ```
 ```bash
 mv abis/contracts_interfaces_IHolaMundo_sol_IHelloWorld.abi abis/IHolaMundo.abi
-``
+```
 
 ### 6. Generate Precompile Files
 
