@@ -9,7 +9,6 @@ To effectively build, run, and test Precompile-EVM, the following is a (non-exha
 - Golang
 - Node.js
 - [AvalancheGo](https://github.com/ava-labs/avalanchego)
-- [Avalanche Network Runner](https://github.com/ava-labs/avalanche-network-runner)
 
 To get started easily, we provide a Dev Container specification, that can be used using GitHub Codespace or locally using Docker and VS Code. DevContainers are a concept that utilizes containerization (via Docker containers) to create consistent and isolated development environment. We can access this environment through VS code, which allows for the development experience to feel as if you were developing locally..
 
@@ -29,26 +28,21 @@ In order to run the Dev Container locally:
 
 ## Learn about Precompile-EVM
 
-To get a comprehensive introduction to Precompile-EVM, take the Avalanche Academy course on [Customizing the EVM](https://academy.avax.com/course/customize-evm).
+To get a comprehensive introduction to Precompile-EVM, take the Avalanche Academy course on [Customizing the EVM](https://academy.avax.com/course/customizing-evm).
 
-## How to use
-
-There is an example branch [hello-world-example](https://github.com/ava-labs/precompile-evm/tree/hello-world-example) in this repository. You can check the example branch to see how to register precompiles and test them.
+## Hello World Example
 
 ### Clone the Repo
 
 ```zsh
 git clone https://github.com/ava-labs/precompile-evm.git
-cd precompile-evm/ # change directory to the precompile-evm/ directory
+cd precompile-evm/
 ```
 
 ### Checkout the `hello-world-example` Branch
 
 ```zsh
 git checkout hello-world-example
-
-branch 'hello-world-example' set up to track 'origin/hello-world-example'.
-Switched to a new branch 'hello-world-example'
 ```
 
 ### Install NodeJS Dependencies
@@ -56,7 +50,7 @@ Switched to a new branch 'hello-world-example'
 First you have to `cd contracts/` and run `npm install` to get the dependencies.
 
 ```zsh
-cd contracts/ # change directory to the contracts/ directory
+cd contracts/ 
 npm install
 ```
 
